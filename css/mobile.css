@@ -1,0 +1,67 @@
+@media screen and (min-width: 480px) {
+	.modal {
+		width: 408px;
+	}
+	.advantages-list {
+	}
+	.advantages-item {
+		width: 100%;
+	}
+
+	.team-list {
+		width: 100%;
+	}
+
+	.team-content {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header-wrapper {
+		display: none;
+	}
+	.header-media-content {
+		margin-top: auto;
+	}
+
+	.advantages-title {
+		text-align: center;
+	}
+	.advantages-item:not(:last-child) {
+		margin-bottom: 72px;
+	}
+	.container.our-team {
+		width: 264px;
+	}
+	.team-item:not(:last-child) {
+		margin-bottom: 72px;
+	}
+
+	.hero-title {
+		max-width: 320px;
+		width: 100%;
+
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.11;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.advantages-content {
+		display: none;
+	}
+
+	.advantages-subtitle {
+		font-weight: 500;
+	}
+	.advantages-title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.11;
+		text-transform: capitalize;
+	}
+	.services {
+		display: none;
+	}
+}
